@@ -10,7 +10,7 @@ while true ; do
     rm -rf ~/.telegram-cli/data/voice/*
     rm -rf ~/.telegram-cli/data/profile_photo/*
     killall tgcli
-    bash beyond.sh
+    bash bot.lua
     echo Bots Running!
     sleep 180
 done
